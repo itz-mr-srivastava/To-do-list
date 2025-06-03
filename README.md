@@ -1,12 +1,44 @@
-# React + Vite
+A simple yet functional Todo List application built with React, HTML, CSS, and JavaScript. This application allows users to add, complete, and delete tasks, as well as filter them by status.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Add new tasks: Easily add new todo items
 
-Currently, two official plugins are available:
+Mark as complete: Check off completed tasks
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Delete tasks: Remove tasks you no longer need
 
-## Expanding the ESLint configuration
+Filter tasks: View all, active, or completed tasks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Responsive design: Works well on different screen sizes
+
+Clean UI: Modern and intuitive interface
+
+Installation
+Clone the repository:
+git clone https://github.com/your-username/todo-app-react.git
+
+Navigate to the project directory:
+cd todo-app-react
+
+Install dependencies:
+npm install
+
+Start the development server:
+npm run dev
+
+Open your browser and visit:
+http://localhost:3000
+
+Available Scripts
+
+In the project directory, you can run:
+npm start
+
+Runs the app in development mode.
+Open http://localhost:3000 to view it in your browser.
+
+npm test
+Launches the test runner in interactive watch mode.
+
+npm run build
+Builds the app for production to the build folder.
